@@ -1,0 +1,20 @@
+{
+  "name": "verschoof/nabv-cardcheck",
+  "description": "This is a library to check if the card of a member is valid",
+  "keywords": ["nabv", "card", "check"],
+  "license": "MIT",
+  "require": {
+    "fabpot/goutte": "^3.1",
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "NABV\\": "lib/NABV"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NABV\\Tests\\": "tests/NABV"
+    }
+  }
+}
